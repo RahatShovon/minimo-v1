@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*header start*/
+.header{
+	padding: 30px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-content{}
+.logo{
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 12px 100px;
+	display: inline-block;
+	text-decoration: none;
+	color: #626262;
+	text-transform: uppercase;
+	transition: 0.33s;
+}
+.menu:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid;
+	transition: 0.33s;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0px;
+}
+.banner-content img{
+	width: 100%;
+}
+/*banner end*/
+/*diary start*/
+.photo-diary{
+	padding: 60px 0;
+}
+.diary-container{
+	width: 80%;
+	margin: 0 auto;
+}
+.blog-type{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	padding: 10px 0px;
+}
+.blog-title{
+	font-size: 30px;
+	padding: 10px 0px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+.blog-paragraph{
+	padding: 10px 0px;
+	line-height: 25px;
+}
+/*diary end*/
+/*lifestyle start*/
+.lifestyle{
+	padding: 60px 0;
+}
+.content{
+	overflow: hidden;
+}
+.content-left{
+	width: 46%;
+	float: left;
+}
+.content-left img{
+	width: 100%;
+}
+.content-right{
+	width: 46%;
+	float: right;
+}
+.content-right img{
+	width: 100%;
+}
+/*lifestyle end*/
+/*signup start*/
+.signup{
+	padding: 60px 0;
+	background-color: #f0f0f0;
+}
+.signup-container{
+	width: 33%;
+	margin: 0 auto;
+	border: 1px solid;
+}
+.signup-content{
+}
+.signup-content h1{
+	font-size: 30px;
+	color: #333333;
+	margin-bottom: 30px;
+}
+.input{
+	font-family: 'Playfair Display', serif;
+	padding: 20px 100px;
+	background-color: #f0f0f0;
+	border: none;
+	border-bottom: 1px solid;
+	text-align: left;
+}
+/*signup end*/
+/*button start*/
+.button{
+	padding: 120px 0;
+}
+.button-container{
+	width: 12%;
+	margin: 0 auto;
+}
+.button-container button{
+	width: 100%;
+	padding: 20px 10px;
+	background-color: #fff;
+	border-radius: 2px;
+	border-color: #626262;
+}
+.button-container button a{
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	color: #626262;
+	font-size: 20px;
+}
+/*button end*/
+/*footer start*/
+.footer{
+	padding-top: 60px;
+	background-color: #f0f0f0;
+	border: 1px solid;
+}
+/*footer end*/
